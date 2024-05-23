@@ -1,0 +1,20 @@
+/*!
+Theme Name: startteri
+Author: jeloou
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: startteri
+*/
+
+
+@forward 'base';
+@forward 'generic';
+@forward 'utilities';
+@forward 'layouts';
+@forward 'components';
+@forward 'lib';
+
+

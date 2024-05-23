@@ -1,0 +1,9 @@
+@use '../../abstracts/variables/' as var;
+
+body {
+	background: var.$color__background-body; // Fallback for when there is no custom background color defined.
+}
+.color{
+	color: red;
+	width: map-get(var.$columns, 1 )
+}
